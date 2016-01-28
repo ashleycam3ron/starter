@@ -5,5 +5,5 @@
      <?php } else { ?>
 	    <div id="banner" style="background: url(http://placehold.it/1400x400) no-repeat center;background-size: cover;min-height: 40vh;">
      <?php } ?>
-     </div>
+     	</div>
 <?php //} ?>

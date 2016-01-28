@@ -29,15 +29,13 @@
 	</a>
 	<nav class="navbar navbar-default" role="navigation">
 		<h2>Primary Navigation</h2>
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-			  <span class="sr-only">Toggle navigation</span>
-			  <span class="icon-bar"></span>
-			  <span class="icon-bar"></span>
-			  <span class="icon-bar"></span>
-			</button>
-		</div>
-		<div class="collapse navbar-collapse navbar-ex1-collapse">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+        </button>
+		<div id="navbar" class="navbar-collapse collapse navbar-ex1-collapse">
 		<?php wp_nav_menu( array(
 			  'menu' => 'primary',
 			  'depth' => 2,
